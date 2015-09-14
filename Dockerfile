@@ -2,11 +2,15 @@
 # a file viewer, a document viewer, and an image viewer
 
 FROM ubuntu:latest
-MAINTAINER: Matthew Farrell <matthew.j.farrell@duke.edu>
+MAINTAINER Matthew Farrell <matthew.j.farrell@duke.edu>
+
+ADD /sample_files/ /home/
+
+EXPOSE 8081
+
 RUN apt-get update && apt-get install -y \
 pcmanfm \
 libreoffice-writer \
 evince \
-ADD /sample_files/ /home/
-EXPOSE 8081
+
 CMD pcmanfm --desktop
