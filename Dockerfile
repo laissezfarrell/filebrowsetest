@@ -11,6 +11,6 @@ EXPOSE 8081
 RUN apt-get update && apt-get install -y \
 pcmanfm \
 libreoffice-writer \
-evince \
+evince 
 
 CMD pcmanfm --desktop
