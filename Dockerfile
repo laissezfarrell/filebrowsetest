@@ -8,3 +8,5 @@ pcmanfm \
 libreoffice-writer \
 evince \
 ADD /sample_files/ /home/
+EXPOSE 8081
+CMD pcmanfm --desktop
