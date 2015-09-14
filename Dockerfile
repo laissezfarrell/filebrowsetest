@@ -6,11 +6,11 @@ MAINTAINER Matthew Farrell <matthew.j.farrell@duke.edu>
 
 ADD /sample_files/ /home/
 
-EXPOSE 8081
+EXPOSE 80
 
 RUN apt-get update && apt-get install -y \
 pcmanfm \
 libreoffice-writer \
 evince 
 
-CMD pcmanfm --desktop
+ENTRYPOINT [ "/usr/sbin/pcmanfm", "--display"]
