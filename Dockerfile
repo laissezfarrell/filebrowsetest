@@ -13,4 +13,4 @@ pcmanfm \
 libreoffice-writer \
 evince 
 
-ENTRYPOINT [ "/usr/sbin/pcmanfm", "--display"]
+ENTRYPOINT [ "/home"]
