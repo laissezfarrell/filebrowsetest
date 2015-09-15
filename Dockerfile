@@ -13,4 +13,4 @@ pcmanfm \
 libreoffice-writer \
 evince 
 
-ENTRYPOINT [ "/home"]
+ENTRYPOINT [ "/srv/bin"]
