@@ -11,4 +11,9 @@ A Docker container to run a file browser
  -built image successfully
  -will try and run container this afternoon.
  -did not like entrypoint--""/srv/bin": stat /srv/bin: no such file or directory"
- -try again without it.
+ -try again without it
+ -tried again without entrypoint. Container built successfully.
+ 
+ -problem is, pcmanfm "cannot open display:" so will have to think of a different app. Probably a NoVNC thing. So look at that Docker container.
+ 
+ 

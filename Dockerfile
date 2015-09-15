@@ -9,8 +9,5 @@ ADD /sample_files/ /home/
 EXPOSE 80
 
 RUN apt-get update && apt-get install -y \
-pcmanfm \
 libreoffice-writer \
 evince 
-
-# ENTRYPOINT [ "/srv/bin"] --removing this for now. Can try entrypoint again with a different path
