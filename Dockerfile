@@ -13,4 +13,4 @@ pcmanfm \
 libreoffice-writer \
 evince 
 
-ENTRYPOINT [ "/srv/bin"]
+# ENTRYPOINT [ "/srv/bin"] --removing this for now. Can try entrypoint again with a different path
